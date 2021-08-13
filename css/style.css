@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /*FONTS*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+  body{
+    font-family: 'Poppins', sans-serif;    
+  }
+
+  h1{
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+
+
+  p{
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 160%;
+  }
+
+  
+
+
+/*NAV*/
+.navbar-light .navbar-brand {
+    color: #00006F;
+    font-weight: 600;
+}
+
+/*Boton-Registrarme NAV*/
+.section-btn {
+  background: #00FFFF;
+  border-radius: 8px;
+  color: #00006F;
+  /*font-size: inherit;
+  font-weight: bold;*/
+  padding: 10px 30px;
+  transition: 0.5s;
+  margin-right: 65px;
+}
+
+.nav-link {
+  color: #00006f96;
+  margin-right: 15px;
+}
+
+
+/*NAV - Margen - Responsive */
+
+@media (min-width: 992px)
+
+{
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2.5rem;
+    color: #00006F;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 70px;
+    font-weight: 550;
+    font-size: 16px;
+    color: #00006F;
+}
+
+}
+
+
+
+/*INICIO HEADER*/
+
+.fondo--azul{
+  background: #00006F;
+}
+
+
+
+img{
+  float: right;
+  position: relative;
+  left: 0px;
+  right: 0;
+}
+
+.chicanotebook{
+  position: relative;
+  left: 12px;
+}
+
+.titulo--Header{
+  padding-top: 115px;
+  color: white;
+  margin-left: -35px;
+}
+
+.parrafo--Header{
+  color: white;
+  font-size: 18px;
+  margin-left: -31px;
+  margin-top: 23px;
+}
+
+.caja--titulos{
+  position: relative;
+  left: 110px;
+}
+
+.btn-info {
+  background: #00FFFF;
+  border-radius: 8px;
+  color: #00006F;
+  /*font-size: inherit;
+  font-weight: bold;*/
+  padding: 10px 30px;
+  transition: 0.5s;
+  margin-left: -31px;
+  margin-top: 20px;
+}
+
+
+
+/*MEDIA QUERY HEADER Y SUSCRIPCION*/
+
+
+@media (max-width: 480px) { 
+
+  .flex-header{
+    flex-direction: column-reverse!important;
+  }
+  .titulo--Header {
+    margin-top: 0%;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 10px;
+}
+  .parrafo--Header{
+    text-align: center;
+    margin-left: 1px;
+    font-size: 14px;
+  }
+  .btn--Header{
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+  }
+  .caja--titulos{
+    position: relative;
+    left: -2px;
+    padding-bottom: 20px;
+  }
+  .caja--suscripcion{
+    text-align: center;
+  }
+  .boton--suscripcion{
+    position: relative!important;
+    top: 25px;
+  }
+
+
+  .btn-info {
+    background: #00FFFF;
+    border-radius: 8px;
+    color: #00006F;
+ /*   font-size: inherit;
+    font-weight: bold;*/
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+br {
+  display: none;
+}
+
+
+ }
+
+
+ 
+ /*Suscripcion*/
+
+ .caja--suscripcion{
+   background: aqua;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   margin-bottom: 55px;
+
+ }
+
+ .boton--suscripcion{
+  color: #00006F;
+  background-color: #00FFFF;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 2px solid #00006F;
+  padding: 12px 30px 12px 30px;
+text-decoration: none;
+}
+
+.sub-h5 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+ 
+/*Cursos*/
+
+.cards-cursos {
+  background: #0c165214;
+  border-radius: 16px;
+  padding: 34px;
+  margin-bottom: 70px;
+  margin-left: -6px;
+  margin-right: -13px;
+  padding-left: 50px;
+  padding-top: 14px;
+  padding-bottom: -36px;
+}
+
+h2{
+  color: #00006F;
+    font-size: 50px;
+    padding-bottom: 16px;
+    margin-top: 35px;
+    margin-right: 22px;
+    font-weight: 600;
+}
+
+a.list-group-item, button.list-group-item {
+  color: #55555547;
+  text-align: initial;
+  font-size: 14px;
+  margin-left: 75px;
+  line-height: 35px;
+  border: none;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #4E3B97;
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  width: 180px;
+}
+
+.list-group-item {
+  z-index: 2;
+  color: #4E3B97;
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  width: 180px;
+}
+
+.col-md-8::-webkit-scrollbar {
+  width: 8px;     
+  height: 8px;    
+  display: none;  
+}
+
+h4{
+  font-size: 32px;
+  color: #4E3B97;
+  font-weight: 600;
+}
+
+#cursos{
+  margin-top: -24px;
+}
+
+
+
+
+/*nosotros*/
+
+#nosotros{
+  width: 100%;
+  height: 560px;
+  background: #0C1652;
+  margin-top: -12px;
+}
+
+
+.titulo--nosotros{
+color: white;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.texto--nosotros{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:white;
+  
+}
+
+.texto--nosotros > span{
+font-style: normal;
+}
+
+/*MEDIA QUERY nosotros*/
+@media (max-width: 480px) {
+  #nosotros{
+    height: 833px;
+  }
+
+  .caja--suscripcion {
+    background: aqua;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 55px;
+  }
+  .pt-5 {
+    padding-top: 3rem!important;
+}
+
+.margin-c{
+    margin-bottom: 66px;
+}
+
+.texto--nosotros {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 42px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: white;
+  text-align: center;
+}
+
+.titulo--nosotros {
+  color: white;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  text-align: center;
+}
+
+
+.redes-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo--nosotros{
+  text-align: center;
+}
+.texto--nosotros{
+  text-align: left;
+}
+
+
+ }
+
+
+/*SECCION EQUIPO*/
+
+.equipo--title h1{
+  color: #00006F;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+
+
+#Equipo{
+  color: #00006F;
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+
+.nombre--Equipo{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+}
+
+.card--caja{
+box-shadow: 0px 0px 15px rgba(12, 22, 82, 0.25);
+border-radius: 16px;
+width: 400px;
+height: 370px;
+}
+
+.card-title{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #00006F;
+}
+
+.card-text .card-body  p{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #00006F;
+}
+
+.texto--jaime{
+  position: relative;
+  top: 14px;
+}
+
+/*SLIDER*/
+
+
+.swiper-button-next {
+    height: 80px!important;
+    width: 120px!important;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.swiper-button-next{
+  background-image: (url(/images/Slider/flecha.svg));
+  padding-left: 50px;
+  width: 155px!important;
+}
+
+
+
+/*SECCION FOOTER*/
+
+footer {
+  background: #0C1652;
+  /* width: 100vw; */
+  /* min-width: 100vw; */
+  /* min-height: 23vh; */
+  bottom: 0;
+  position: static;
+  z-index: 1;
+}
+
+
+#logo-footer{
+  font-size: 32px;
+  color: #fff;
+}
+
+
+.politicas-a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.politicas-a:hover {
+  color: #00FFFF;
+}
+
+#contacto-email {
+  color: #fff;
+}
+
+.imagen--Redes{
+  background: #00FFFF;
+  border-radius: 100%;
+  top: 0%;
+  bottom: 0%;
+  position: relative;
+  padding: 5px; 
+  margin-right: 10px;
+}
+
+.imagen--Redes:hover{
+  background: white;
+}
+
+@media (max-width: 480px) { 
+  .caja--footer{
+      text-align: center;
+  }
+  .btn-home{
+    display: none;
+  }
+  .politicas-a{
+    display: block;
+  }
+ 
+}
+
+
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 6rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.caja-ipad{
+  background: #00006F;
+  display: none;
+}
+
+@media only screen and (device-width: 768px) {
+  .logo-footer{
+    font-size: 21px;
+  }
+  .col-12 > h5{
+    font-size: 20px;
+  }
+  #contacto-email{
+    font-size: 13px;
+  }
+  .politicas-a{
+    font-size: 13px;
+  }
+  .chicanotebook{
+    display: none;
+  }
+  .flex-header{
+    display: none;
+  }
+  .caja--titulos{
+    display: none;
+  }
+  .caja-ipad{
+    display: flex;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .caja-ipad-h1{
+    font-size: 40px;
+  }
+  .btn-header-ipad{
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    
+  }
+  .btn-ipad{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  .parrafo--Header-ipad{
+    padding-bottom: 15px;
+  }
+  }
+
+
+
+
+
+
